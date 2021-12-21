@@ -1,0 +1,83 @@
+.create_group {
+    padding: 100px;
+    display: flex;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.outer_wrapper {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner_wrapper {
+    width: 100%;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+}
+
+.inner_field {
+    margin-left: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 30px;
+    width: 80%
+}
+.inner_text {
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: solid;
+    width: 30%;
+    text-align: center;
+}
+
+.create_group_button_inner {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-left: 5px;
+    border: 2px solid black;
+    font-size: 20px;
+    height: 30px;
+    text-align: center;
+    width: 200px;
+}
+
+.create_group_button {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    font-size: 30px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+}
+.form {
+    height: 100%;
+    width: 100%;
+}
+
+.group_title {
+    text-align: center;
+}
+
+.devide_equally {
+    display: flex;
+    justify-content: center;
+}
+.additional_text {
+    text-align: center;
+}
