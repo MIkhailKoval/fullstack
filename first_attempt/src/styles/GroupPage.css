@@ -1,0 +1,31 @@
+.group_big_field {
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}
+.test {
+    color: blue;
+}
+
+.my_block {
+    display: none
+}
+
+.test:active .my_block{
+    display: block;
+    background-color: aqua;
+
+}
+
+.test:hover .my_block {
+    display: block;
+    margin-left: 100px;
+}
+
+.group_page_padding {
+    padding-left: 1%
+}
+
+.group_description {
+    font-style:italic;
+}

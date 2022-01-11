@@ -1,0 +1,102 @@
+.exp_items {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    border: white solid 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+}
+
+.pay_items {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    border: white solid 2px;
+    border-radius: 5px;
+    margin-top: 10px;
+    height: 50px;
+    width: 30%;
+    margin-left: 40px;
+}
+
+.expense_date {
+    display: flex;
+    flex-direction: column;
+}
+
+.expense_name {
+    display: flex;
+    align-items: center;
+    width: 70%;
+    justify-content: center;
+}
+.main_block {
+    padding-left: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 50%;
+}
+
+.main_payment_block {
+    padding-left: 1%;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 15%;
+}
+
+.payment_info {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+    justify-content: center;
+    width: 70%
+
+}
+
+.price {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    width: 25%
+}
+
+.debt {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.price_text {
+    text-align: center;
+    font-size: 13px;
+}
+
+.price_price {
+    text-align: center;
+}
+
+.payment_text {
+    font-size: 15px;
+    text-align: center;
+}
+
+.day {
+    text-align: center;
+}
+.month {
+    text-align: center;
+}

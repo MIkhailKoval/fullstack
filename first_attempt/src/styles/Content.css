@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    overflow: scroll;
+}
+header {
+    height: 60px;
+}
+
+.wrapper_for_header {
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    background: #fff;
+    z-index: 1000;
+}
